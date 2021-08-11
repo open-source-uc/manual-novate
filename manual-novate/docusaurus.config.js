@@ -24,7 +24,7 @@ module.exports = {
           type: 'doc',
           docId: 'intro',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Manual',
         },
         {
           href: 'https://github.com/open-source-uc/manual-novate',
@@ -47,28 +47,28 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Directorios',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Guia Novata',
               to: '/docs/intro',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Links a Organizaciones',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Open Source eUC',
+              href: 'https://osuc.dev/',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Consejeria Superior',
+              href: 'https://consejeriasuperior.cl/',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'FEUC',
+              href: 'https://feuc.cl/',
             },
           ],
         },
