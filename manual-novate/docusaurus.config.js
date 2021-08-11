@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'Manual Novate UC',
   tagline: 'Transición a la presencialidad 2021',
-  url: 'manual.consejeriasuperior.cl',
+  url: 'https://manual.consejeriasuperior.cl',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -86,7 +86,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Hecho por un equipo de voluntarios de la Consejería Superior y Open Source UC.`,
+      copyright: `Hecho por un equipo de voluntarios de la FEUC, la Consejería Superior y Open Source UC.`,
     },
     prism: {
       theme: lightCodeTheme,
