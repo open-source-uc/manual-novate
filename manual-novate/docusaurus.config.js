@@ -76,10 +76,6 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
               label: 'GitHub',
               href: 'https://github.com/facebook/docusaurus',
             },
@@ -115,4 +111,8 @@ module.exports = {
       },
     ],
   ],
+  i18n: {
+    defaultLocale: 'es',
+    locales: ['es'],
+  },
 };
