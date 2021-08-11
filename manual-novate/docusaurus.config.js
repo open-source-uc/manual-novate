@@ -7,7 +7,8 @@ module.exports = {
   tagline: 'Transición a la presencialidad 2021',
   url: 'https://manual.consejeriasuperior.cl',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  // Change to "throw" after production!
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'open-source-uc', // Usually your GitHub org/user name.
