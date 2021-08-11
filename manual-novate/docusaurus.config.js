@@ -5,9 +5,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'Manual Novate UC',
   tagline: 'Transición a la presencialidad 2021',
-  url: 'manual.consejeriasuperior.cl',
+  url: 'https://manual.consejeriasuperior.cl',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  // Change to "throw" after production!
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'open-source-uc', // Usually your GitHub org/user name.
@@ -76,17 +77,13 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
               label: 'GitHub',
               href: 'https://github.com/facebook/docusaurus',
             },
           ],
         },
       ],
-      copyright: `Hecho por un equipo de voluntarios de la Consejería Superior y Open Source UC.`,
+      copyright: `Hecho por un equipo de voluntarios de la FEUC, la Consejería Superior y Open Source UC.`,
     },
     prism: {
       theme: lightCodeTheme,
@@ -115,4 +112,8 @@ module.exports = {
       },
     ],
   ],
+  i18n: {
+    defaultLocale: 'es',
+    locales: ['es'],
+  },
 };
